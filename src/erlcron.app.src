@@ -1,0 +1,13 @@
+{application, erlcron,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  qdate
+                 ]},
+  {mod, { erlcron_app, []}},
+  {env, []}
+ ]}.
